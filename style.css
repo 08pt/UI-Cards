@@ -1,0 +1,90 @@
+*{
+    margin:5px;
+    padding: 0px;
+  
+}
+html{
+    font-size: 16px;
+}
+body{
+    background-color:antiquewhite;
+}
+.heading{
+    text-align: center;
+    margin-top: 5rem;
+   text-transform: uppercase;
+  
+}
+.icon{
+    width: 30px;
+    height: 40px;
+    border-radius: 20%;
+    margin: 0 auto;
+}
+.card-1 .icon{
+    background-color: burlywood;
+}
+.card-2 .icon{
+    background-color: rgb(23, 138, 101);
+}
+.card-3 .icon{
+    background-color: rgb(116, 23, 116);
+}
+.card  {
+    text-align: center;
+    align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  max-width: 50rem;
+  margin: 10rem;
+}
+.card.card-1{
+   
+    background-color: aquamarine;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    padding: 13px;
+    
+  }
+
+  .card.card-2{
+    background-color: burlywood;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    padding: 19px;
+   
+  }
+  .card.card-3{
+      background-color: cornflowerblue;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    padding: 18px;
+   
+  }
+.card.card-1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+  cursor: pointer;
+}
+.card.card-2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+    cursor: pointer;  
+}
+  .card.card-3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    cursor: pointer;  
+}
+.btn{
+    text-transform: uppercase;
+    border: transparent;
+    padding: 0.4rem 0.6rem;
+    letter-spacing: 0.1rem;
+    border-radius: 0.3rem;
+}
+.btn :hover{
+    cursor: pointer;
+}
+  
+  
